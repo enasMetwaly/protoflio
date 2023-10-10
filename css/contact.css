@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: white;
+    height: 100vh;
+}
+section article{
+    margin: 20px;
+}
+
+.article1{
+    animation:article1_appear .5s linear 1 ;
+
+}
+
+.article2{
+    animation:article2_appear 1s linear 1 ;
+
+}
+.article3{
+    animation:article3_appear 1.5s linear 1 ;
+
+}
+
+
+
+@keyframes article1_appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+
+
+}
+@keyframes article2_appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+
+
+}
+
+@keyframes article3_appear{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+
+
+}
